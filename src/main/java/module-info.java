@@ -1,10 +1,9 @@
-import no.ssb.rawdata.api.RawdataClientInitializer;
-import no.ssb.rawdata.avro.cloudstorage.GCSRawdataClientInitializer;
-import no.ssb.rawdata.avro.filesystem.FilesystemAvroRawdataClientInitializer;
+import io.descoped.rawdata.avro.cloudstorage.GCSRawdataClientInitializer;
+import io.descoped.rawdata.avro.filesystem.FilesystemAvroRawdataClientInitializer;
 
-module no.ssb.rawdata.avro {
-    requires no.ssb.rawdata.api;
-    requires no.ssb.service.provider.api;
+module io.descoped.rawdata.avro {
+    requires io.descoped.rawdata.api;
+    requires io.descoped.service.provider.api;
     requires org.slf4j;
     requires org.apache.avro;
 

@@ -9,7 +9,7 @@
         </encoder>
     </appender>
 
-    <logger name="no.ssb.rawdata.gcs" level="INFO"/>
+    <logger name="io.descoped.rawdata.gcs" level="INFO"/>
 
     <root level="INFO">
         <appender-ref ref="STDOUT"/>

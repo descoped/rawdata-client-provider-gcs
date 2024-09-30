@@ -2,7 +2,7 @@
 <suite name="tests">
     <test name="default">
         <packages>
-            <package name="no.ssb.rawdata.avro.*"/>
+            <package name="io.descoped.rawdata.avro.*"/>
         </packages>
     </test>
 </suite>
