@@ -1,6 +1,3 @@
-import io.descoped.rawdata.avro.cloudstorage.GCSRawdataClientInitializer;
-import io.descoped.rawdata.avro.filesystem.FilesystemAvroRawdataClientInitializer;
-
 module io.descoped.rawdata.avro {
     requires io.descoped.rawdata.api;
     requires io.descoped.service.provider.api;
@@ -13,5 +10,7 @@ module io.descoped.rawdata.avro {
     requires com.google.auth.oauth2;
     requires com.google.auth;
 
-    provides RawdataClientInitializer with GCSRawdataClientInitializer, FilesystemAvroRawdataClientInitializer;
+    provides io.descoped.rawdata.api.RawdataClientInitializer with
+            io.descoped.rawdata.avro.cloudstorage.GCSRawdataClientInitializer,
+            io.descoped.rawdata.avro.filesystem.FilesystemAvroRawdataClientInitializer;
 }

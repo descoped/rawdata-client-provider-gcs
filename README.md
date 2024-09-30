@@ -1,4 +1,11 @@
 # rawdata-client-provider-gcs
+
+![Build Status](https://img.shields.io/github/actions/workflow/status/descoped/rawdata-client-provider-gcs/coverage-and-sonar-analysis.yml)
+![Latest Tag](https://img.shields.io/github/v/tag/descoped/rawdata-client-provider-gcs)
+![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=descoped_rawdata-client-provider-gcs&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=descoped_rawdata-client-provider-gcs) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=descoped_rawdata-client-provider-gcs&metric=coverage)](https://sonarcloud.io/summary/new_code?id=descoped_rawdata-client-provider-gcs)
+[![Snyk Security Score](https://snyk.io/test/github/descoped/rawdata-client-provider-gcs/badge.svg)](https://snyk.io/test/github/descoped/rawdata-client-provider-gcs)
+
 Rawdata provider for Google Cloud Storage.
 
 Rawdata topics are organized such that each topic has a separate folder 
