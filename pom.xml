@@ -7,8 +7,8 @@
     <version>2.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>GCS Rawdata Provider</name>
-    <description>GCS Rawdata Provider</description>
+    <name>Rawdata Client Provider GCS</name>
+    <description>Rawdata Client Provider GCS</description>
     <url>https://github.com/descoped/</url>
     <inceptionYear>2019</inceptionYear>
 
